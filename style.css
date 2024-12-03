@@ -1,10 +1,27 @@
-#coffees  {
-    display: flex;
-    justify-content: space-evenly;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
-.g{
-    display: flex;
+#tophead h1{
+    align-items: centerg;
 }
- #first{
+#tophead{
+    width: 100%;
+    height: 50px;
+    background-color: antiquewhite;
+}
+#tophead ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    list-style-type: none;
+}
+#tophead{
+    color: black;
+}
+#navbar {
+    background-color: deeppink;
 
- }
+}
